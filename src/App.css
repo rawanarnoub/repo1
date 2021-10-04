@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+
+.App {
+  text-align: center;
+}
+
+body p {
+  font-family: 'Besley', serif;
+}
+
+h1{
+  font-family: 'Besley', serif;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/******************* Navbar Menu *******************************/
+.me-auto {
+  margin-left: auto !important;
+}
+
+
+/************** First Section About Me ************/
+.btn-read-more{
+  border: 1px solid;
+  border-color:black;
+  background-color: black;
+  color:#fff;
+  font-family: 'Besley', serif;
+  text-transform: uppercase;
+  border-radius:12px;
+  padding: 12px;
+  text-decoration: none;
+  margin: 16px ;
+}
+
+.imgofFirstSection > img{
+  max-width:20%;
+  height: auto;
+  padding:40px;
+  margin-left:30px ;
+}
+
+.aboutMe {
+  width: 450px;
+  font-size: 1.5em;
+  margin-left: 600px;
+  margin-top: -280px;
+  font-family: 'Besley', serif;
+}
+/***************** Footer **************************************/
+.main-footer{
+  font-family: 'Besley', serif;
+}
+.text-reset  {
+  text-decoration: none;
+}
+#bold-footer{
+  color:rgb(55, 169, 221);
+}
+.text-uppercase{
+  color:rgb(55, 169, 221);
+}
+.text-center.p-3{
+  color:rgb(55, 169, 221);
+}
+
+.SocialMediaIcons {
+  margin-right: 350px;
+}
+.socialmediaquote{
+  color:white;
+}
+/******************** Contact **********************/
+.ListContact{
+  font-family: 'Besley', serif;
+}
