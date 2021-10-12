@@ -6,7 +6,7 @@ import NavMenu from './components/NavMenu';
 // import Header from './components/Header';
 // import FirstSection from './components/FirstSection';
 // import SecondSection from './components/SecondSection';
-import { BrowserRouter , Route, Switch } from 'react-router-dom';
+import { HahsRouter , Route, Switch } from 'react-router-dom';
 
 // App components 
 import About from './pages/About';
@@ -19,7 +19,7 @@ function App() {
   return (
   
     <div>
-       <BrowserRouter>
+       <HahsRouter>
         <NavMenu />
         <Switch>
          
@@ -41,7 +41,7 @@ function App() {
         </Switch>
         <Footer />
         
-      </BrowserRouter>
+      </HahsRouter>
     </div>
   );
 }
